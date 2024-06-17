@@ -70,7 +70,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [w3schools](https://www.w3schools.com/css/css3_shadows_box.asp) - A frequent bookmark.
+- [joshwcomeau](https://www.joshwcomeau.com/css/interactive-guide-to-grid/#being-mindful-of-keyboard-users-8) - THIS interactive playground, it's the truth!🙌🏿
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
