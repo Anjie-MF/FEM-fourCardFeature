@@ -134,7 +134,7 @@ p {
 .calculator {
     width: 90%;
     margin: 30px 16px;
-    box-shadow: 5px 5px 5px hsl(234, 12%, 34%);
+    box-shadow: 5px 5px 5px 5px hsl(234, 12%, 34%);
 }
 
 h3 {
@@ -198,32 +198,67 @@ img {
         margin-inline: auto;
     }
 
+    h1 {
+        font-size: 1.6rem;
+        font-weight: 200;
+        text-align: center;
+        color: #54565F;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        color: #54565F;
+        width: 55%;
+        margin: 0 auto;
+    }
+
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr) auto;
-        grid-template-rows: repeat(4, 1fr);
-        padding: 10px;
-        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "col1 mid1 col3"
+            "col1 mid2 col3";
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .define {
+        color: #54565F;
+        font-size: 1rem;
+        font-weight: 200;
+        text-align: left;
+        margin-top: 0;
+        margin-left: 12px;
     }
 
     .team-builder {
-        grid-column: 2;
-        grid-row: 1;
+        grid-area: mid1;
     }
 
     .karma {
-        grid-column: 2;
-        grid-row: 2;
+        grid-area: mid2;
     }
 
     .supervisor {
-        grid-column: 1;
-        grid-row: 2;
+        grid-area: col1;
+        align-self: center;
     }
 
     .calculator {
-        grid-column: 3;
-        grid-row: 2;
+        grid-area: col3;
+        align-self: center;
     }
 
 }
