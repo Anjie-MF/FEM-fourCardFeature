@@ -86,4 +86,4 @@ Pro Tip:  For a more efficient learning experience, consider starting with the p
 
 - [doggaT] (https://github.com/doggaT/four-card-feature-section/tree/master) - A big thanks to doggaT for their innovative approach to CSS Grid layout using creative names for grid areas.  This technique significantly simplifies managing complex layouts and was a key factor in helping me grasp the power of CSS Grid.This approach simplifies managing complex layouts, making it much easier than relying on numeric positioning. 
 
-
+- [Stack Overflow](https://stackoverflow.com/questions/67989212/how-to-set-the-icons-to-the-bottom-of-each-card-that-must-be-present-inside-the)- This resource was helpful in understanding how to manipulate font icons effectively, particularly for positioning them at the bottom of cards using CSS.
