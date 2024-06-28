@@ -39,23 +39,23 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Vanilla JS
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+After diving deep into CSS grid for a week, I solidified my understanding. That code snippet not only reinforced my grasp of grid but also gave me a fresh appreciation for the power of flexbox in working with CSS layouts.
 
-To see how you can add code snippets, see below:
+I'm continuing to expand my knowledge of JavaScript through Skillcrush. This project marks a significant milestone for me – it's the first time I've implemented JavaScript outside of a step-by-step tutorial, demonstrating my growing confidence and ability to apply concepts independently.🎉
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+ grid-template-areas:
+            "col1 mid1 col3"
+            "col1 mid2 col3";
 ```
 ```js
 const proudOfThisFunc = () => {
@@ -65,14 +65,17 @@ const proudOfThisFunc = () => {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+In my continued development, I aim to solidify my skills by working on personal projects that incorporate CSS Grid. This includes replicating existing interfaces I find aesthetically pleasing or functionally effective, allowing me to translate design concepts into well-structured layouts.
 
 ### Useful resources
 
-- [joshwcomeau](https://www.joshwcomeau.com/css/interactive-guide-to-grid/#being-mindful-of-keyboard-users-8) - THIS interactive playground, it's the truth!🙌🏿
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Getting started with CSS Grid is overwhelming at first. To make the learning process smoother, I've compiled a list of resources that cater to different learning styles:
 
+- [Sarah_Edo CSS Grid Generator](https://cssgrid-generator.netlify.app/) -This interactive playground allows you to visualize CSS Grid concepts in real-time, making them more intuitive to grasp. I'd recommend it to anyone who NEEDS the visual to understand the abstract.
+- [CSS Grid Garden](https://cssgridgarden.com/) - Get your hands dirty with CSS Grid! This website offers a playful environment to experiment with different grid layouts and solidify your understanding.
+- [CSS-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) -This comprehensive guide by CSS-tricks delves deep into the intricacies of CSS Grid, providing a solid foundation for advanced use cases.
+
+Pro Tip:  For a more efficient learning experience, consider starting with the playground or garden to gain a basic understanding, followed by the in-depth guide for a more detailed dive.
 ## Author
 
 - Frontend Mentor - [@Anjie-MF](https://www.frontendmentor.io/profile/Anjie-MF)
@@ -81,5 +84,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- [doggaT] (https://github.com/doggaT/four-card-feature-section/tree/master) - A big thanks to doggaT for their innovative approach to CSS Grid layout using creative names for grid areas.  This technique significantly simplifies managing complex layouts and was a key factor in helping me grasp the power of CSS Grid.This approach simplifies managing complex layouts, making it much easier than relying on numeric positioning. 
+
 
