@@ -97,6 +97,7 @@ textarea:not([rows]) {
 
 body {
     margin: auto 0;
+    background-color: hsl(0, 0%, 98%);
 }
 
 main {
@@ -134,7 +135,7 @@ p {
 .calculator {
     width: 90%;
     margin: 30px 16px;
-    box-shadow: 5px 5px 5px 5px hsl(234, 12%, 34%);
+    box-shadow: 5px 5px 5px 5px hsl(229, 6%, 6%, 6%);
 }
 
 h3 {
@@ -152,8 +153,9 @@ h3 {
     margin-top: 0;
 }
 
-img {
-    padding: 25px 0 25px 200px;
+.img {
+    display: grid;
+    place-content: end;
     font-size: 24px;
 }
 
@@ -161,33 +163,18 @@ img {
     border-top: 5px solid #04BFAD;
 }
 
-.supervisor:hover {
-    background-color: #04BFAD;
-}
-
 .team-builder {
     border-top: 5px solid hsl(0, 78%, 62%);
-}
-
-.team-builder:hover {
-    background-color: hsl(0, 78%, 62%);
 }
 
 .karma {
     border-top: 5px solid hsl(34, 97%, 64%);
 }
 
-.karma:hover {
-    background-color: hsl(34, 97%, 64%);
-}
-
 .calculator {
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-.calculator:hover {
-    background-color: hsl(212, 86%, 64%);
-}
 
 /* ---------------------Desktop Styles-------------------------*/
 @media only screen and (min-width: 768px) {
@@ -247,8 +234,19 @@ img {
         grid-area: mid1;
     }
 
+
+    .team-builder:hover {
+        background-color: hsl(0, 78%, 62%);
+    }
+
+
     .karma {
         grid-area: mid2;
+    }
+
+
+    .karma:hover {
+        background-color: hsl(34, 97%, 64%);
     }
 
     .supervisor {
@@ -256,9 +254,18 @@ img {
         align-self: center;
     }
 
+    .supervisor:hover {
+        background-color: #04BFAD;
+    }
+
     .calculator {
         grid-area: col3;
         align-self: center;
     }
+
+    .calculator:hover {
+        background-color: hsl(212, 86%, 64%);
+    }
+
 
 }
