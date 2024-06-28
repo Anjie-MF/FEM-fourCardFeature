@@ -156,7 +156,8 @@ h3 {
 .img {
     display: grid;
     place-content: end;
-    font-size: 24px;
+    font-size: 32px;
+    padding: 20px;
 }
 
 .supervisor {
@@ -265,6 +266,14 @@ h3 {
 
     .calculator:hover {
         background-color: hsl(212, 86%, 64%);
+    }
+
+    .grid-container section {
+        transition: transform 0.3s ease;
+    }
+
+    .expand {
+        transform: scale(1.4);
     }
 
 
