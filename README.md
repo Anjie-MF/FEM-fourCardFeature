@@ -50,7 +50,7 @@ After diving deep into CSS grid for a week, I solidified my understanding. That 
 I'm continuing to expand my knowledge of JavaScript through Skillcrush. This project marks a significant milestone for me – it's the first time I've implemented JavaScript outside of a step-by-step tutorial, demonstrating my growing confidence and ability to apply concepts independently.🎉
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Some CSS & JS code I'm proud of</h1>
 ```
 ```css
  grid-template-areas:
@@ -58,14 +58,23 @@ I'm continuing to expand my knowledge of JavaScript through Skillcrush. This pro
             "col1 mid2 col3";
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+let supervisorSection = document.getElementById("supervisor-section");
+supervisorSection.style.transition = "transform 0.5s!important";
+supervisorSection.addEventListener("mouseover", function () {
+    supervisorSection.style.transform = "scale(1.3)";
+});
+supervisorSection.addEventListener("mouseout", function () {
+    supervisorSection.style.transform = "scale(1)";
+});
 ```
 
 ### Continued development
 
-In my continued development, I aim to solidify my skills by working on personal projects that incorporate CSS Grid. This includes replicating existing interfaces I find aesthetically pleasing or functionally effective, allowing me to translate design concepts into well-structured layouts.
+In my continued development, I aim to solidify my skills by working on personal projects that incorporate CSS Grid. 
+
+From this FEM project and onwards, I will add a sprink of JS so I'm reinforcing what I am learning from the [Skillcrush](https://skillcrush.com/) coding camp.  
+
+
 
 ### Useful resources
 
