@@ -235,19 +235,8 @@ h3 {
         grid-area: mid1;
     }
 
-
-    .team-builder:hover {
-        background-color: hsl(0, 78%, 62%);
-    }
-
-
     .karma {
         grid-area: mid2;
-    }
-
-
-    .karma:hover {
-        background-color: hsl(34, 97%, 64%);
     }
 
     .supervisor {
@@ -255,26 +244,14 @@ h3 {
         align-self: center;
     }
 
-    .supervisor:hover {
-        background-color: #04BFAD;
-    }
-
     .calculator {
         grid-area: col3;
         align-self: center;
     }
 
-    .calculator:hover {
-        background-color: hsl(212, 86%, 64%);
+    .attribution {
+        text-align: center;
+        margin-top: 20px;
+        color: crimson;
     }
-
-    .grid-container section {
-        transition: transform 0.3s ease;
-    }
-
-    .expand {
-        transform: scale(1.4);
-    }
-
-
 }
